@@ -31,16 +31,16 @@ public class NumberUtility {
 		Random rand=new Random();	
 		return rand.nextInt((num2-num1)+1)+num1;
 	}
-	public static int Max(int num1, int num2)
+	public static double Max(double num1, double num2)
 	{
-		int max=0;
+		double max=0;
 		if(num1>num2) max=num1;
 		else max=num2;
 		return max;
 	}
-	public static int Min(int num1, int num2)
+	public static double Min(double num1, double num2)
 	{
-		int min=0;
+		double min=0;
 		if(num1>num2) min=num2;
 		else min=num1;
 		return min;
